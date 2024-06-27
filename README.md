@@ -18,11 +18,16 @@ python3 ok --local -q [functionName] -v
 - `-q`: run tests for a specific question
 - `-v`: show all tests up to failing line (if any)
 
+To get an assignment score.
+```bash
+python3 ok --local --score
+```
+
 Visit [cs61a.org](https://cs61a.org/articles/using-ok) for more information.
 
 ## Assignments
 ### Labs
-- [ ] Lab 00: Getting Started
+- [X] [Lab 00: Getting Started](./labs/lab00/lab00.py)
 - [ ] Lab 01: Functions, Control
 - [ ] Lab 02: Higher-Order Functions, Lambda Expressions
 - [ ] Lab 03: Recursion, Tree Recursion
