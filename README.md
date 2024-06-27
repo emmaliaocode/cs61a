@@ -1,18 +1,27 @@
 # CS61A
-This repo collects my labs, homework, and projects for the [UC Berkeley CS61A, Summer 2024](https://cs61a.org/lab/lab00/) course.
+This repo collects my labs, homework, and projects for the [UC Berkeley CS61A, Summer 2024](https://cs61a.org/) course.
 
-## Using `Ok` 
-Without enrolling in the class, add `--local` flag to avoid authentication when testing the homework assignments, labs, and projects with `ok`.
+## Materials
+### Course slides
+- [Google Drive](https://drive.google.com/drive/folders/1I1N4RVM4NI44g2SG_h7WZEsm_hh8b3kG?usp=sharing)
+
+### Course Notes
+- [Rouxles/cs61a-notes](https://cs61a.rouxl.es/)
+
+## Using `Ok`
+Test the homework assignments, labs, and projects with `ok`.
 ```bash
 cd /path/to/dir
-python3 ok --local
+python3 ok --local -q [functionName] -v
 ```
-For more information, visit https://cs61a.org/articles/using-ok/.
+- `--local`: disable network activity to avoid authentication for users without enrolled.
+- `-q`: run tests for a specific question
+- `-v`: show all tests up to failing line (if any)
 
-## Slides
-[Google Drive](https://drive.google.com/drive/folders/1I1N4RVM4NI44g2SG_h7WZEsm_hh8b3kG?usp=sharing)
+Visit [cs61a.org](https://cs61a.org/articles/using-ok) for more information.
 
-## Labs
+## Assignments
+### Labs
 - [ ] Lab 00: Getting Started
 - [ ] Lab 01: Functions, Control
 - [ ] Lab 02: Higher-Order Functions, Lambda Expressions
@@ -27,7 +36,7 @@ For more information, visit https://cs61a.org/articles/using-ok/.
 - [ ] Lab 11: SQL, Scheme Data Abstraction
 - [ ] Lab 12: Final Review (Optional)
 
-## Homework
+### Homework
 - [ ] HW 01: Functions, Control
 - [ ] HW 02: Higher-Order Functions, Recursion
 - [ ] HW 03: Tree Recursion, Sequences, Python Lists, Trees
@@ -37,7 +46,7 @@ For more information, visit https://cs61a.org/articles/using-ok/.
 - [ ] HW 07: Scheme Data Abstraction, SQL
 - [ ] HW 08: Finale
 
-## Projects
+### Projects
 - [ ] Project 01: Hog
 - [ ] Project 02: Cats
 - [ ] Project 03: Ants
