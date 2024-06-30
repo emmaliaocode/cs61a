@@ -42,7 +42,7 @@ Visit [cs61a.org](https://cs61a.org/articles/using-ok) for more information.
 - [ ] Lab 12: Final Review (Optional)
 
 ### Homework
-- [ ] HW 01: Functions, Control
+- [X] [HW 01: Functions, Control](./homework/hw01/hw01.py)
 - [ ] HW 02: Higher-Order Functions, Recursion
 - [ ] HW 03: Tree Recursion, Sequences, Python Lists, Trees
 - [ ] HW 04: Iterators, Generators, Efficiency
