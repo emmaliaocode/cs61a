@@ -28,7 +28,7 @@ Visit [cs61a.org](https://cs61a.org/articles/using-ok) for more information.
 ## Assignments
 ### Labs
 - [X] [Lab 00: Getting Started](./labs/lab00/lab00.py)
-- [ ] Lab 01: Functions, Control
+- [X] [Lab 01: Functions, Control](./labs/lab01/lab01.py)
 - [ ] Lab 02: Higher-Order Functions, Lambda Expressions
 - [ ] Lab 03: Recursion, Tree Recursion
 - [ ] Lab 04: Trees, Data Abstraction
